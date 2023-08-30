@@ -1,6 +1,27 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+
 #mainDivContainer {
     border: 1px solid red;
+    width: calc(80vh);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
 
+.cellRow {
+    border: 1px solid gold;
+    flex-grow: 1;
 }
 
 .cell {

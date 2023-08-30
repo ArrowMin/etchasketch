@@ -1,11 +1,19 @@
 
 
 function addElement() {
-    const newDiv = document.createElement("div");
-    newDiv.classList.add("cell")
-    document.getElementById("mainDivContainer").appendChild(newDiv);
+    const cellRow = document.createElement("div");
+    cellRow.classList.add("cellRow")
+    document.getElementById("mainDivContainer").appendChild(cellRow);
 }
 
+addElement();
+addElement();
+addElement();
+addElement();
+addElement();
+addElement();
+addElement();
+addElement();
 addElement();
 console.log("Connected")
 
